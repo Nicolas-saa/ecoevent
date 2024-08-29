@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConsejosActivity"
+    android:background="@drawable/fondo_categorias">
+
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/button"-->
+<!--        android:layout_width="39dp"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_marginStart="35dp"-->
+<!--        android:layout_marginTop="24dp"-->
+<!--        android:layout_marginEnd="286dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.0"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        android:background="@mipmap/ic_atras"/>-->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="667dp"
+        android:background="@drawable/ic_consejos_amarillo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.457" />
+
+
+    <TextView
+        android:id="@+id/textViewConsejos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="128dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="580dp"
+        android:text="Consejos"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#FF7A00"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.415"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewAlimentos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="164dp"
+        android:text="Alimentos"
+        android:textColor="#FF7A00"
+        android:textSize="24sp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewAlimentosContenido"
+        android:layout_width="357dp"
+        android:layout_height="146dp"
+        android:layout_marginTop="205dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="451dp"
+        android:text="Contenedores Reutilizables: Opta por contenedores de alimentos reutilizables en lugar de envolturas de plástico o envases desechables.\n\nProveedores Sostenibles: Elige proveedores que utilicen envases biodegradables o compostables.\n\nCompra a Granel: Compra ingredientes a granel para reducir el uso de empaques plásticos.\n\nCompostaje: Establece estaciones de compostaje para los restos de alimentos en lugar de utilizar bolsas de plástico para desecharlos."
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.083" />
+
+    <TextView
+        android:id="@+id/textViewBebidas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="356dp"
+        android:text="Bebidas"
+        android:textColor="#FF7A00"
+        android:textSize="24sp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewBebidasContenido"
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="388dp"
+        android:layout_marginEnd="10dp"
+        android:text="Botellas Reutilizables: Proporciona botellas de agua reutilizables para los asistentes en lugar de botellas plásticas desechables.
+Dispensadores de Agua: Instala dispensadores de agua en lugar de ofrecer botellas individuales.
+Vasos Compostables: Utiliza vasos compostables o biodegradables en lugar de plásticos.
+Alternativas a las Pajitas: Proporciona pajitas de papel, bambú o metal en lugar de pajitas de plástico."
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textViewDecoraciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="516dp"
+        android:text="Decoraciones"
+        android:textColor="#FF7A00"
+        android:textSize="24sp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewBebidasContenido2"
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="388dp"
+        android:layout_marginEnd="10dp"
+        android:text="Materiales Naturales:Usa decoraciones hechas de materiales naturales como papel, tela, madera o flores frescas.
+    Decoraciones Reutilizables:Reutiliza decoraciones de eventos anteriores o alquila decoraciones en lugar de comprarlas nuevas.
+    Iluminación Sostenible: Utiliza luces LED en lugar de luces plásticas y opta por velas de cera natural."
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.723" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/homeButton"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/ic_home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/gridButton"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/ic_categorias_negro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/settingsButton"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/ic_estadisticas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

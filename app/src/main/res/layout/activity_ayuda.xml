@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AyudaActivity"
+    android:background="#1B1B1B">
+
+    <TextView
+        android:id="@+id/tvAlimentos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="88dp"
+        android:text="Alimentos"
+        android:textColor="#FF7A00"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvAlimentosDesc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Bolsas de pan y sándwich, plástico de burbujas, bolsas de basura, bolsas de supermercado, envases de alimentos caliente, envases de comida para llevar, cartones de huevos, cubiertos"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvAlimentos"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/tvBebidas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="244dp"
+        android:text="Bebidas"
+        android:textColor="#FF7A00"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvBebidasDesc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Botellas de bebidas, botellas, frascos de comida, cartones de leche, popotes, tapas de botellas, botellas de prescripción médica"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvBebidas"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/tvDecoraciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="416dp"
+        android:text="Decoraciones"
+        android:textColor="#FF7A00"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvDecoracionesDesc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Baldes, bancos de parque y tuberías rígidas, tuberías de plomería, tarjetas de crédito, juguetes para humanos y mascotas, canaletas de lluvia, bolsas de líquidos intravenosos y tubos médicos y máscaras de oxígeno, cajas de DVD / CD, anteojos, biberones y termos deportivos"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvDecoraciones"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginTop="16dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSalir"
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="64dp"
+        android:background="@drawable/button_background_menu"
+        android:text="salir"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

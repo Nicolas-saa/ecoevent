@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:background="#393636">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="204dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="318dp"
+        android:layout_marginBottom="45dp"
+        android:text="ECO-EVENT"
+        android:textColor="#FF7A00"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonCategories"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginEnd="256dp"
+        android:layout_marginBottom="306dp"
+        android:background="@drawable/rounded_button_home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:drawableLeft="@drawable/ic_categorias_negro"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="categorias"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@id/buttonCategories"
+        app:layout_constraintStart_toStartOf="@id/buttonCategories"
+        app:layout_constraintEnd_toEndOf="@id/buttonCategories" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonStatistics"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="306dp"
+        android:background="@drawable/rounded_button_home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:drawableLeft="@drawable/ic_estadisticas"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="estadistica"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@id/buttonStatistics"
+        app:layout_constraintStart_toStartOf="@id/buttonStatistics"
+        app:layout_constraintEnd_toEndOf="@id/buttonStatistics" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonTips"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="264dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="306dp"
+        android:background="@drawable/rounded_button_home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:drawableLeft="@drawable/ic_consejos"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="consejos"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@id/buttonTips"
+        app:layout_constraintStart_toStartOf="@id/buttonTips"
+        app:layout_constraintEnd_toEndOf="@id/buttonTips" />
+
+    <ImageView
+        android:id="@+id/iconImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="104dp"
+        android:src="@drawable/logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

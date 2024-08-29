@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BebidasActivity"
+    android:background="#1B1B1B">
+
+    <TextView
+        android:id="@+id/tvAlimentos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="148dp"
+        android:text="Bebidas"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_editor_absoluteY="148dp"
+        app:layout_editor_absoluteX="140dp"/>
+
+    <ImageView
+        android:id="@+id/ivIcon"
+        android:layout_width="64dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/ic_bebidas_amarillo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_editor_absoluteX="150dp"
+        app:layout_editor_absoluteY="44dp" />
+
+    <EditText
+        android:id="@+id/etCategoria"
+        android:layout_width="191dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="232dp"
+        android:background="@drawable/rounded_button_categorias"
+        android:hint="Categoría"
+        android:padding="8dp"
+        android:textColorHint="#D9D9D9"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_editor_absoluteX="108dp"
+        app:layout_editor_absoluteY="232dp"/>
+
+    <EditText
+        android:id="@+id/etCantidad"
+        android:layout_width="191dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/rounded_button_categorias"
+        android:hint="Cantidad"
+        android:padding="8dp"
+        android:textColorHint="#D9D9D9"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etCosto"
+        android:layout_width="191dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="368dp"
+        android:background="@drawable/rounded_button_categorias"
+        android:hint="Costo"
+        android:padding="8dp"
+        android:textColorHint="#D9D9D9"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etMes"
+        android:layout_width="191dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="432dp"
+        android:background="@drawable/rounded_button_categorias"
+        android:hint="Mes"
+        android:padding="8dp"
+        android:textColorHint="#D9D9D9"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnCancelar"
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/button_gradient"
+        android:text="Cancelar"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnGuardar"
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="172dp"
+        android:background="@drawable/button_gradient"
+        android:text="guardar"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
