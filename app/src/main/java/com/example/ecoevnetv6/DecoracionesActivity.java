@@ -47,7 +47,6 @@ public class DecoracionesActivity extends AppCompatActivity {
                     double cost = Double.parseDouble(etCost.getText().toString());
                     String month = etMonth.getText().toString();
 
-                    // Aquí puedes guardar los datos en una base de datos o realizar otra acción
 
                     Toast.makeText(DecoracionesActivity.this, "Datos guardados correctamente", Toast.LENGTH_SHORT).show();
                     finish(); // Cerrar la actividad

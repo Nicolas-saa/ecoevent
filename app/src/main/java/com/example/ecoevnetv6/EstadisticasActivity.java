@@ -39,14 +39,7 @@ public class EstadisticasActivity extends AppCompatActivity {
         // Agregar listeners a los botones
 
 
-//        btnAdvice.setOnClickListener(new View(.OnClickListener)) {
-//            @Override
-//            public void onclick(View view) {
-//                // Ir a la pantalla de consejos
-//                Intent intent = new Intent(EstadisticasActivity.this, ConsejosActivity.class);
-//                startActivity(intent);
-//            }
-//        });
+
         btnHome.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

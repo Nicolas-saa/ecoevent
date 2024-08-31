@@ -42,8 +42,6 @@ public class RegistroActivity extends AppCompatActivity {
 
     private void createAccount() {
         // Lógica para crear cuenta
-        // Aquí puedes agregar la lógica para crear una cuenta en tu base de datos
-        // Por ahora, solo mostraremos un mensaje de éxito
         Toast.makeText(this, "Cuenta creada con éxito", Toast.LENGTH_SHORT).show();
     }
 }

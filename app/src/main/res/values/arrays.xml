@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="tipos_plastico">
+        <item>Bolsas de pan y sándwich</item>
+        <item>Plástico de burbujas</item>
+        <item>Bolsas de basura</item>
+        <item>Bolsas de supermercado</item>
+        <item>Envases de alimentos calientes</item>
+        <item>Envases de comida para llevar</item>
+        <item>Cartones de huevos</item>
+        <item>Cubiertos</item>
+    </string-array>
+
+    <string-array name="meses">
+        <item>Enero</item>
+        <item>Febrero</item>
+        <item>Marzo</item>
+        <item>Abril</item>
+        <item>Mayo</item>
+        <item>Junio</item>
+        <item>Julio</item>
+        <item>Agosto</item>
+        <item>Septiembre</item>
+        <item>Octubre</item>
+        <item>Noviembre</item>
+        <item>Diciembre</item>
+    </string-array>
+</resources>
